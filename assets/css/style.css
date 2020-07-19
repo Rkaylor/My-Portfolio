@@ -1,6 +1,11 @@
+
+
+/* fonts */
+
 body{
     height: 100%;
     background-image: url("../images/500.jpg");
+   
   
     /* Full height */
     height: 50%; 
@@ -9,8 +14,37 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+
+}
+  /* Header  */
   .about_Me {
+    font-family: 'Montserrat', sans-serif; 
     text-align: center;
+    color: #feceab;
+    font-weight: bolder;
+    display: block;
+  }
+  /* NavBar Design */
+  
+  /* Paragraph Font  */
+  .p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color:  #feceab;
+     display: block;
+     
+    
 
   }
+
+
+
+
+
+
+
+
+  /* fonts */
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sora', sans-serif; */
