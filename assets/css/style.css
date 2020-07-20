@@ -41,6 +41,8 @@ body{
 .keyboard_Image{
   width:500px;
   height:200px; 
+  margin: 0;
+  padding: 0;
   float: left;
   
 }
