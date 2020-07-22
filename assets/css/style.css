@@ -5,17 +5,14 @@
 body{
     height: 100%;
     background-image: url("../images/500.jpg");
-   
-  
-    /* Full height */
     height: 50%; 
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+  /* Home Page */
   /* Header Index */
   .about_Me {
     font-family: 'Montserrat', sans-serif; 
@@ -25,19 +22,61 @@ body{
     display: block;
   }
   /* NavBar Design */
+
+  /* Picture Card  */
+.card-body{
+  background: #99b898;
   
-  /* Paragraph Font Index  */
+}
+.card-image-top{
+    width: 100px;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-title{
+color: #feceab;
+}
+.card-text{
+color:#feceab
+}
+  
+  /* Paragraph and Header Fonts/Color Changes (Across html)  */
   .p1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     color:  #feceab;
      display: block;
-     
+  }
+  h1{
+      font-family: 'Montserrat', sans-serif;
+      color: #feceab;
+      font-weight: 800;
+      font-size: 3em;
+    }
+  
+  h2{
+    font-family: 'Roboto', sans-serif;
+    color: #feceab;
+  }
+.contact-Text{
+ color:#feceab ; 
+}
+
+.list-Text{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.p2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
     
 
-  }
+  
 /* Portfolio */
-
+/* Picture */
 .keyboard_Image{
   width:500px;
   height:200px; 
@@ -61,15 +100,11 @@ body{
 	font-family: 'system-ui';
 }
 
-h1{
-  color: #feceab;
-	font-weight: 800;
-	font-size: 3em;
-}
-
 .subtitle{
+  color:#ff847c ;
 	font-size: 1.25em;
-	opacity: 0.65;
+  opacity: 0.65;
+  
 }
 
 .card-block{
@@ -81,7 +116,9 @@ h1{
 	background-size: cover;
 	transition: all 0.2s ease-in-out !important;
 	transform: translateY(-5px);
-	box-shadow: none;}
+  box-shadow: none;}
+  
+  /* Contact me */
 
 
 
