@@ -38,6 +38,7 @@ body{
 color: #feceab;
 }
 .card-text{
+font-family: 'Sora', sans-serif; 
 color:#feceab
 }
   
@@ -58,6 +59,7 @@ color:#feceab
   h2{
     font-family: 'Roboto', sans-serif;
     color: #feceab;
+  
   }
 .contact-Text{
  color:#feceab ; 
